@@ -14,4 +14,5 @@ function rolldice() {
   }
 
   diceResult.textContent = `dice: ${values.join(", ")}`;
+  diceImages.innerHTML = Images.join(" ");
 }
